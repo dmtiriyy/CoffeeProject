@@ -1,6 +1,6 @@
 import Col from 'react-bootstrap/Col';
 
-import './coffee-filter.scss'
+import './coffeeFilter.scss'
 
 
 const CoffeeFilter = (props) => {
