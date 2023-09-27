@@ -3,8 +3,8 @@ import CoffeeFilter from '../coffee-filter/CoffeeFilter'
 import CoffeeMenu from '../coffee-menu/CoffeeMenu';
 import CoffeeSearch from '../coffee-search/CoffeeSearch'
 
-import Container from 'react-bootstrap/esm/Container';
-import Row from 'react-bootstrap/esm/Row';
+import { Container } from 'react-bootstrap/lib/tab';
+import { Row } from 'react-bootstrap';
 
 import { Link } from 'react-router-dom'
 import { useState } from 'react';
