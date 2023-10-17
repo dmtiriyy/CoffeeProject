@@ -1,7 +1,8 @@
 
-import CoffeeHeader from '../coffee-header/CoffeeHeader.js'
-import MainPage from '../pages/MainPage.js'
-import CoffeePage from '../pages/CoffeePage'
+import CoffeeHeader from '../coffee-header/coffee-header';
+import MainPage from '../../pages/MainPage'
+import DescrPage from '../../pages/DescrPage'
+import CoffeePage from '../../pages/CoffeePage'
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
