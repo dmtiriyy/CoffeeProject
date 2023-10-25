@@ -13,9 +13,10 @@ const App = () => {
       <Router>
          <CoffeeHeader />
          <Routes>
-            <Route path='/CoffeeProject' element={<MainPage />} />
+            <Route path='/' element={<MainPage />} />
             <Route path='/coffee' element={<CoffeePage />} />
             <Route path='/description' element={<DescrPage />} />
+            <Route path='/CoffeeProject' element={<MainPage />} />
          </Routes>
       </Router>
    );
